@@ -1,3 +1,4 @@
 # 1400-exp1
-1) multiple sets of inputs - multiple sets of variable values given in program or file or user input and print all sets of graphs in one plot and specify those sets values
-2) combination of hard coding variables and user input through keyboard and specify the type of graph with values
+1. Implement weather modeling* using the quadratic solution in stages: hard-coding variables
+keyboard input, read from a file, for a single set of input, multiple sets of inputs.
+a. save all versions, debug, fix problems, create a Github account
