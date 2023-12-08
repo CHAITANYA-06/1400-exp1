@@ -25,11 +25,9 @@ def plot_temperature_over_time(a, b, c, time_range):
 def main():
     print("Weather Modeling using Quadratic Solution")
 
-    # Hard-coded coefficients
     a_hardcoded, b_hardcoded, c_hardcoded = -5.1, -0.5, 0
     time_range = np.linspace(0, 10, 100)  # Adjust the time range as needed
 
-    # Plot temperature over time using the quadratic function
     plot_temperature_over_time(a_hardcoded, b_hardcoded, c_hardcoded, time_range)
 
 if __name__ == "__main__":
