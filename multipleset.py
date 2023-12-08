@@ -6,16 +6,13 @@ def quadratic_temperature_model(time,a,b,c):
   temperature=a*(time**2)+b*time+c
   return temperature
 
-#List of coefficients sets(a,b,c)
 coefficients_list={
     (0.02,1.5,20),
     (0.01,2,10),
     (0.03,1,25),
 }
-#Generate time values from 0 to 50 with step1
 time_values=np.arange(0,51,1)
 
-#Plotting the results for each set of coefficients
 for i, (a,b,c) in enumerate(coefficients_list):
   temperature_values=quadratic_temperature_model(time_values,a,b,c)
   label=f'Set(i+1): a={a}, b={b}, c={c}'
